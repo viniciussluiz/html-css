@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Barrio';
+    src: url('fonts/Barrio Chino.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Thunder';
+    src: url('fonts/thundernovaexpand.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open';
+    src: url('fonts/OpenSans-VariableFont_wdth,wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3CD983, #30AB67, #1B5936);
+    padding: 20px 20px 20px 20px;
+    margin: -8px;
+}
+
+h1#principal {
+    font-family: 'Barrio', Times, serif;
+    color:white;
+    font-size: 3em;
+    font-weight: normal;
+    margin: 20px;
+    text-align: center;
+}
+
+header > p {
+    font-family: 'Open', Times, serif;
+    margin-top: 20px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px 20px 200px 20px;
+    margin: 8px 200px 0px 200px;
+}
+
+h1 {
+    font-family: 'Thunder', Times, serif;
+    color:#1B5936;
+    font-size: 3em;
+    font-weight: normal;
+    margin: 20px;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Thunder', Times, serif;
+    color:#1B5936;
+    font-size: 2em;
+    font-weight: normal;
+    margin: 20px;
+    text-align: left;
+    background-image: linear-gradient(to right, 
+    #84E1AD, #aedac1, white);
+}
+
+article > p {
+    font-family: 'Open', Times, serif;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+div#dov {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+div#principal {
+    background-color: #1B5936;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 24px 20px 24px 20px;
+    margin: 28px -20px 10px -20px;
+}
+
+div > p#principal {
+    font-family: 'Open', Times, serif;
+    color:white;
+    background-color: #3CD983;
+    padding: 16px 10px 16px 10px;
+    margin: 27px 10px 9px 10px;
+    border-radius: 10px 10px 0px 0px
+}
+
+div > aside {
+    background-color: #aedac1;
+    font-family: 'Open', Times, serif;
+    font-weight: bold;
+    padding: 9px 10px 10px 10px;
+    margin: -9px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px
+}
+
+.lista1 {
+    column-count: 2;
+    column-gap: 4rem;
+}
+
+p {
+    font-family: 'Open', Times, serif;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+footer {
+    background-color:#1B5936;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 32px -20px 10px -20px;
+}
+
+footer > p {
+    text-align: center;
+    color:white
+}
+span {
+    color:#30AB67
+}
